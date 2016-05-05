@@ -1,7 +1,0 @@
-<keymap version="1" name="Mac OS X copy" parent="Mac OS X">
-  <action id="GotoFile">
-    <keyboard-shortcut first-keystroke="shift meta n" />
-    <keyboard-shortcut first-keystroke="meta o" />
-  </action>
-  <action id="OverrideMethods" />
-</keymap>
