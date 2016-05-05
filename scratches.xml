@@ -1,0 +1,11 @@
+<application>
+  <component name="ScratchFileService">
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch" value="JSHint" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1" value="JSHint" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2" value="JSX Harmony" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3" value="JSX Harmony" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_4" value="JSX Harmony" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_5" value="JavaScript" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_6" value="JavaScript" />
+  </component>
+</application>

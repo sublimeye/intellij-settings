@@ -1,0 +1,9 @@
+<application>
+  <component name="PowerModeII">
+    <option name="flamesEnabled" value="false" />
+    <option name="shakeEnabled" value="false" />
+    <option name="shakeRange" value="20" />
+    <option name="sparkCount" value="39" />
+    <option name="sparkLife" value="1023" />
+  </component>
+</application>

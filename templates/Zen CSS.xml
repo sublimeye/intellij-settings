@@ -1,0 +1,59 @@
+<templateSet group="Zen CSS">
+  <template name="bg" value="background: $clip$;" description="background:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="clip" expression="clipboard()" defaultValue="#ccc" alwaysStopAt="false" />
+    <context>
+      <option name="CSS_PROPERTY_VALUE" value="true" />
+      <option name="CSS_RULESET_LIST" value="true" />
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="c" value="color:#$END$;" description="color:#000;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_PROPERTY_VALUE" value="true" />
+      <option name="CSS_RULESET_LIST" value="true" />
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="o" value="outline: 1px solid red;" description="outline:...;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="true" />
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+      <option name="CSS_RULESET_LIST" value="true" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="tal:l" value="text-align-last:left;" description="text-align-last:left;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XSL_TEXT" value="true" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="trf:t" value="transform: translate($VAR0$, $VAR1$);" description="transform: translate(x, y);" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;x&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;y&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="trf:tx" value="transform: translateX($VAR0$);" description="transform: translateX(x);" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;x&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="trf:ty" value="transform: translateY($VAR0$);" description="transform: translateY(y);" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;y&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="bgg" value="background: $END$;" description="background:...;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_PROPERTY_VALUE" value="true" />
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+      <option name="CSS_RULESET_LIST" value="true" />
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+</templateSet>
